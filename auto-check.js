@@ -105,6 +105,19 @@
 //     return message;
 //   };
 
+
+
+
+/* Завдання 11 автоперевірка
+ */
+// function calculateTotalPrice (orderedQuantity, pricePerItem) {
+//     const totalPrice = orderedQuantity * pricePerItem;
+//     return totalPrice;
+//   };
+
+
+
+
 /* Завдання 12 автоперевірка
  */
 // function makeOrderMessage(orderedQuantity, pricePerDroid, deliveryFee) {
@@ -117,5 +130,208 @@
 
 
 /* Завдання 13 автоперевірка
+ */
+// function isAdult(age) {
+
+//     const passed = age >= 18;
+//     return passed;
+//   }
+
+
+
+/* Завдання 14 автоперевірка
+ */
+// function isValidPassword(password) {
+//     const SAVED_PASSWORD = 'jqueryismyjam';
+    
+//     const isMatch = password === SAVED_PASSWORD;
+    
+//     return isMatch;
+//   }
+
+
+
+
+/* Завдання 15 автоперевірка
+ */
+// function checkAge(age) {
+//     let message;
+  
+//     if (age >= 18) { 
+//       message = 'You are an adult';
+//     } else {
+//       message = 'You are a minor';
+//     }
+  
+//     return message;
+//   }
+  
+
+
+/* Завдання 16 автоперевірка
+ */
+// function checkStorage(available, ordered) {
+//     let message;
+   
+//       if (available < ordered) { 
+//         message = 'Not enough goods in stock!';
+//       } else {
+//         message = 'Order is processed, our manager will contact you.';
+//       }
+    
+//     return message;
+//   }
+  
+
+
+
+/* Завдання 17 автоперевірка
+ */
+// let a = 5;
+// let b = 10;
+// let c = 15;
+// let d = 20;
+
+
+// a += 2;
+// b -= 4;
+// c *= 3;
+// d /= 10;
+
+
+
+/* Завдання 18 автоперевірка
+ */
+// function makeTransaction(pricePerDroid, orderedQuantity, customerCredits) {
+//     let message;
+    
+//     const totalPrice = (pricePerDroid * orderedQuantity);
+//      if  (totalPrice > customerCredits){
+//         message = 'Insufficient funds!';}
+//      else {
+//       message = `You ordered ${orderedQuantity} droids, you have ${customerCredits-totalPrice} credits left`
+//     };
+  
+//     return message;
+//   }
+
+
+
+/* Завдання 19 автоперевірка
+ */
+// function checkPassword(password) {
+//     const ADMIN_PASSWORD = 'jqueryismyjam';
+//     let message;
+  
+//     if (password === null) { 
+//       message =  'Canceled by user!';
+//     } else if (password === ADMIN_PASSWORD) { 
+//       message = 'Welcome!';
+//     } else {
+//       message = 'Access denied, wrong password!';
+//     }
+  
+//     return message;
+//   }
+
+
+
+/* Завдання 20 автоперевірка
+ */
+// function checkStorage(available, ordered) {
+//     let message;
+    
+//   if (ordered === 0) { 
+//         message =  'There are no products in the order!';
+//       } else if (ordered > available) { 
+//         message = 'Your order is too large, there are not enough items in stock!';
+//       } else {
+//         message = 'The order is accepted, our manager will contact you';
+//       }
+    
+//     return message;
+//   }
+
+
+
+/* Завдання 21 автоперевірка
+ */
+// function isNumberInRange(start, end, number) {
+//     const isInRange = number >= start && number <= end; 
+  
+//     return isInRange;
+//   }
+  
+
+
+
+/* Завдання 22 автоперевірка
+ */
+// function checkIfCanAccessContent(subType) {
+//     const canAccessContent = (subType === "pro" || subType === "vip"); 
+  
+//     return canAccessContent;
+//   }
+
+
+
+/* Завдання 23 автоперевірка
+ */
+// function isNumberNotInRange(start, end, number) {
+//     const isInRange = number >= start && number <= end;
+//     const isNotInRange = !isInRange; 
+  
+//     return isNotInRange;
+//   }
+
+
+
+/* Завдання 24 автоперевірка
+ */
+// function getDiscount(totalSpent) {
+//     const BASE_DISCOUNT = 0;
+//     const BRONZE_DISCOUNT = 0.02;
+//     const SILVER_DISCOUNT = 0.05;
+//     const GOLD_DISCOUNT = 0.1;
+//     let discount;
+  
+  
+//   if (totalSpent >= 50000) {
+//     discount = GOLD_DISCOUNT;
+//   }
+//   else if (totalSpent >= 20000 && totalSpent < 50000) {
+//     discount = SILVER_DISCOUNT;
+//   }
+//   else if (totalSpent >= 5000 && totalSpent < 20000) {
+//    discount = BRONZE_DISCOUNT;
+//   }
+//   else {
+//     discount = BASE_DISCOUNT;
+//   }
+  
+//   console.log(getDiscount);
+    
+//     return discount;
+//   }
+  
+
+
+
+/* Завдання 25 автоперевірка
+ */
+// function checkStorage(available, ordered) {
+//     let message;
+  
+//   message = ordered > available ? "Not enough goods in stock!" : "The order is accepted, our manager will contact you";
+  
+//   console.log(message);
+ 
+//     return message;
+//   }
+
+
+
+
+/* Завдання 26 автоперевірка
  */
 
