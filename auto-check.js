@@ -372,3 +372,64 @@
 
 /* Завдання 28 автоперевірка
  */
+// function checkPassword(password) {
+//     const ADMIN_PASSWORD = "jqueryismyjam";
+//     let message;
+  
+//   switch (password) { 
+//         case null: 
+//           message = "Canceled by user!"; 
+//    break;
+//       case ADMIN_PASSWORD: 
+//           message = "Welcome!"; 
+//           break; 
+//      default: message = "Access denied, wrong password!";
+//     }
+  
+//     return message;
+//   }
+
+
+
+/* Завдання 29 автоперевірка
+ */
+// function getShippingCost(country) {
+//     let message;
+    
+//   switch (country) { 
+//           case ("China"): 
+//            message = "Shipping to China will cost 100 credits"; 
+//           break;
+  
+//         case ("Chile"): 
+//           message = "Shipping to Chile will cost 250 credits"; 
+//           break;
+  
+//         case ("Australia"): 
+//           message = "Shipping to Australia will cost 170 credits"; 
+//           break;
+  
+//        case ("Jamaica"): 
+//           message = "Shipping to Jamaica will cost 120 credits"; 
+//           break;
+  
+//           default: message = "Sorry, there is no delivery to your country";
+//       }
+    
+//     return message;
+//   }
+  
+
+
+
+/* Завдання 30 автоперевірка
+ */
+// function getNameLength(name) {
+//     let message = `Name ${name} is ${name.length} characters long`; 
+//     return message;
+//   }
+  
+
+
+/* Завдання 31 автоперевірка
+ */
