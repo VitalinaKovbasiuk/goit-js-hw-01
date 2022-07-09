@@ -334,4 +334,41 @@
 
 /* Завдання 26 автоперевірка
  */
+// function checkPassword(password) {
+//     const ADMIN_PASSWORD = "jqueryismyjam";
+//     let message;
+    
+//   message = password == ADMIN_PASSWORD ? "Access is allowed" : "Access denied, wrong password!";
+    
+//     return message;
+//   }
 
+
+
+/* Завдання 27 автоперевірка
+ */
+// function getSubscriptionPrice(type) {
+//     let price;
+   
+//    switch (type) { 
+//       case ("starter"): 
+//         price = 0; 
+//         break;
+  
+//       case ("professional"): 
+//         price = 20; 
+//         break;
+  
+//       case ("organization"): 
+//         price = 50; 
+//         break;
+//     }
+  
+//     return price;
+//   }
+
+
+
+
+/* Завдання 28 автоперевірка
+ */
