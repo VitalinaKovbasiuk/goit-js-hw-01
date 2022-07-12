@@ -48,12 +48,34 @@
 // const normalizedBrand = brand.toLowerCase();
 // console.log(normalizedBrand);
 // або
-let brand = 'Samsung';
-brand = brand.toLowerCase();
-console.log(brand);
+// let brand = 'Samsung';
+// brand = brand.toLowerCase();
+// console.log(brand);
+// Під яким індексом стоїть буква:
+// console.log(brand[5]);
+// видрізати першу половину:
+// console.log(brand.slice(1).toLowerCase());
+// brand = brand[0] + brand.slice(1).toLowerCase();
+// console.log(brand);
 
 
 
 
-/* 
+/* Поиск в строке 
  */
+// const blacklistedWord1 = 'спам';
+// const blacklistedWord2 = 'распродажа';
+
+// const string1 = 'Привет, я принц Абдул, это не спам, предлагаю тебе миллион!';
+// const string2 = 'Самая большая РАСПРОДАЖА этой недели, не пропустите!';
+// const string3 = 'Рекламная компания #fatliversmatter';
+
+// console.log(string1.includes(blacklistedWord1));
+// console.log(string1.includes(blacklistedWord2));
+
+// console.log(string2.includes(blacklistedWord1));
+// console.log(string2.toLowerCase().includes(blacklistedWord2));
+// // ми це зробили , бо у нас було прописано маленькими буквами, а в там великими - щоб точно знати ми нормалізували
+
+// console.log(string3.includes(blacklistedWord1));
+// console.log(string3.includes(blacklistedWord2));
