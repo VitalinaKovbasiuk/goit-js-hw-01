@@ -42,8 +42,18 @@
 
 
 
-/* 
+/* Нормализация с методом toLowerCase
  */
+// const brand = 'Samsung';
+// const normalizedBrand = brand.toLowerCase();
+// console.log(normalizedBrand);
+// або
+let brand = 'Samsung';
+brand = brand.toLowerCase();
+console.log(brand);
+
+
+
 
 /* 
  */
